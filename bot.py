@@ -42,7 +42,7 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_video(
         chat_id=query.message.chat_id,
         video=VIDEO_URL,
-        caption=f"developed by VAMSI({chosen_text} DEMO)"
+        caption=f"developed by VAMSI)"
     )
 
 def main():
